@@ -1,0 +1,58 @@
+ 
+{
+  "hello": {
+    "phonetic": "/həˈləʊ/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["Used as a greeting or to begin a telephone conversation"],
+        "synonyms": ["greeting", "welcome", "salutation"],
+        "antonyms": ["goodbye", "farewell"]
+      }
+    ]
+  },
+  "world": {
+    "phonetic": "/wəːld/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["The earth, together with all of its countries and peoples"],
+        "synonyms": ["earth", "globe", "planet"],
+        "antonyms": []
+      }
+    ]
+  },
+  "computer": {
+    "phonetic": "/kəmˈpjuːtə/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["An electronic device for storing and processing data"],
+        "synonyms": ["PC", "workstation", "processor"],
+        "antonyms": []
+      }
+    ]
+  },
+  "programming": {
+    "phonetic": "/ˈprəʊɡramɪŋ/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["The process of writing computer programs"],
+        "synonyms": ["coding", "software development"],
+        "antonyms": []
+      }
+    ]
+  },
+  "java": {
+    "phonetic": "/ˈdʒɑːvə/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["A high-level programming language", "An island in Indonesia"],
+        "synonyms": ["programming language", "coding language"],
+        "antonyms": []
+      }
+    ]
+  }
+}

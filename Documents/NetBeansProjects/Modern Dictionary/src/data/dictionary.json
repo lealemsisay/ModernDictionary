@@ -1,0 +1,86 @@
+{
+  "hello": {
+    "phonetic": "/həˈləʊ/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["Used as a greeting or to begin a conversation"],
+        "synonyms": ["greeting", "welcome", "salutation"],
+        "antonyms": ["goodbye", "farewell"],
+        "examples": ["She said hello to everyone in the room."]
+      }
+    ]
+  },
+  "world": {
+    "phonetic": "/wɜːrld/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["The earth and all life on it"],
+        "synonyms": ["earth", "globe", "planet"],
+        "antonyms": [],
+        "examples": ["He traveled around the world."]
+      }
+    ]
+  },
+  "computer": {
+    "phonetic": "/kəmˈpjuːtər/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["An electronic device for storing and processing data"],
+        "synonyms": ["PC", "workstation", "processor"],
+        "antonyms": [],
+        "examples": ["She works on her computer all day."]
+      }
+    ]
+  },
+  "programming": {
+    "phonetic": "/ˈproʊɡræmɪŋ/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["The process of writing computer programs"],
+        "synonyms": ["coding", "software development"],
+        "antonyms": [],
+        "examples": ["He studied programming in college."]
+      }
+    ]
+  },
+  "dictionary": {
+    "phonetic": "/ˈdɪkʃəneri/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["A book or electronic resource that lists words with their meanings"],
+        "synonyms": ["lexicon", "wordbook", "vocabulary"],
+        "antonyms": [],
+        "examples": ["She looked up the word in the dictionary."]
+      }
+    ]
+  },
+  "software": {
+    "phonetic": "/ˈsɒftweər/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["Programs and other operating information used by a computer"],
+        "synonyms": ["programs", "applications", "apps"],
+        "antonyms": ["hardware"],
+        "examples": ["The company develops educational software."]
+      }
+    ]
+  },
+  "algorithm": {
+    "phonetic": "/ˈælɡərɪðəm/",
+    "meanings": [
+      {
+        "partOfSpeech": "noun",
+        "definitions": ["A process or set of rules to be followed in calculations"],
+        "synonyms": ["procedure", "process", "method"],
+        "antonyms": [],
+        "examples": ["The search algorithm quickly found the results."]
+      }
+    ]
+  }
+}

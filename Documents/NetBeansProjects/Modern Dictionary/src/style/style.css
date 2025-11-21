@@ -1,0 +1,44 @@
+/* ----------------------------- */
+/* LIGHT THEME (DEFAULT)         */
+/* ----------------------------- */
+.light-theme {
+    -fx-background-color: #f2f2f2;      /* Light gray */
+    -fx-text-fill: #000000;             /* Black text */
+}
+
+/* Sidebar, labels, main content inherit automatically */
+.light-theme .sidebar,
+.light-theme .main-content,
+.light-theme .top-bar {
+    -fx-background-color: #ffffff;
+}
+
+
+
+/* ----------------------------- */
+/* DARK THEME (TEST MODE)        */
+/* ----------------------------- */
+.dark-theme {
+    -fx-background-color: #121212;      /* Deep dark gray */
+    -fx-text-fill: #ffffff;             /* White text */
+}
+
+.dark-theme .sidebar,
+.dark-theme .main-content,
+.dark-theme .top-bar {
+    -fx-background-color: #1e1e1e;      /* Slightly lighter dark */
+    -fx-text-fill: #ffffff;
+}
+
+/* Labels become white */
+.dark-theme Label {
+    -fx-text-fill: #ffffff;
+}
+
+/* TextField + Button test styling */
+.dark-theme TextField,
+.dark-theme Button {
+    -fx-background-color: #2a2a2a;
+    -fx-text-fill: #ffffff;
+    -fx-border-color: #444444;
+}

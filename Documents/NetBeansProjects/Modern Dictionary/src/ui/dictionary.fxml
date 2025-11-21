@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane xmlns="http://javafx.com/javafx/11.0.1"
+            xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="Controller.DictionaryController"
+            prefWidth="1400" prefHeight="900"
+            style="-fx-background-color: #0D1117;">
+
+    <!-- TOP BAR -->
+    <top>
+        <HBox alignment="CENTER_RIGHT" style="-fx-padding: 20 32 20 32; -fx-background-color: #0D1117;">
+            <Region HBox.hgrow="ALWAYS"/>
+            <MenuButton fx:id="settingsMenuButton"
+                        text="⚙️ Settings"
+                        style="-fx-background-color: #161B22; -fx-border-color: #1E293B; -fx-border-width: 1; -fx-border-radius: 12; -fx-padding: 12 16; -fx-text-fill: #F1F5F9; -fx-font-size: 14px;">
+                <items>
+                    <MenuItem fx:id="themeMenuItem" text="☀️ Switch to Light Theme" style="-fx-text-fill: #F1F5F9;"/>
+                    <SeparatorMenuItem/>
+                    <MenuItem fx:id="fullscreenMenuItem" text="🗔 Toggle Fullscreen" style="-fx-text-fill: #F1F5F9;"/>
+                    <MenuItem fx:id="aboutMenuItem" text="ℹ️ About" style="-fx-text-fill: #F1F5F9;"/>
+                </items>
+            </MenuButton>
+        </HBox>
+    </top>
+
+    <!-- MAIN CONTENT -->
+    <center>
+        <HBox spacing="0" style="-fx-background-color: #0D1117;">
+
+            <!-- LEFT SIDEBAR -->
+            <VBox fx:id="sidebar" style="-fx-background-color: #161B22; -fx-padding: 32; -fx-spacing: 32; -fx-pref-width: 320;">
+
+                <!-- App Title -->
+                <Label text="Dictionary" style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #F1F5F9;"/>
+
+                <!-- Search Section -->
+                <VBox style="-fx-spacing: 20; -fx-background-color: #161B22;">
+                    <Label text="Search for a word..." style="-fx-font-size: 18px; -fx-font-weight: 600; -fx-text-fill: #94A3B8;"/>
+
+                    <!-- Search Field + Suggestions -->
+                    <VBox fx:id="searchContainer" style="-fx-spacing: 8; -fx-background-color: #161B22;">
+                        <TextField fx:id="searchField"
+                                   promptText="Type a word and press Enter..."
+                                   style="-fx-background-color: #1F242C; -fx-border-color: #1E293B; -fx-border-radius: 14; -fx-background-radius: 14; -fx-padding: 14 16; -fx-font-size: 14px; -fx-text-fill: #F1F5F9; -fx-prompt-text-fill: #64748B;"/>
+                    </VBox>
+                </VBox>
+
+                <!-- Sidebar Content -->
+                <ScrollPane fitToWidth="true"
+                            VBox.vgrow="ALWAYS"
+                            hbarPolicy="NEVER"
+                            vbarPolicy="AS_NEEDED"
+                            style="-fx-background-color: #161B22; -fx-border-color: transparent;">
+                    
+                    <VBox style="-fx-spacing: 32; -fx-background-color: #161B22;">
+
+                        <!-- Recent Searches -->
+                        <VBox style="-fx-spacing: 16; -fx-background-color: #161B22;">
+                            <Label text="Recent Searches" style="-fx-font-size: 18px; -fx-font-weight: 600; -fx-text-fill: #94A3B8;"/>
+                            <VBox fx:id="recentSearchesContainer"
+                                  style="-fx-spacing: 12; -fx-background-color: #161B22;"/>
+                        </VBox>
+
+                        <!-- Favorites -->
+                        <VBox style="-fx-spacing: 16; -fx-background-color: #161B22;">
+                            <Label text="Favorites" style="-fx-font-size: 18px; -fx-font-weight: 600; -fx-text-fill: #94A3B8;"/>
+                            <VBox fx:id="favoritesContainer"
+                                  style="-fx-spacing: 12; -fx-background-color: #161B22;"/>
+                        </VBox>
+
+                    </VBox>
+                </ScrollPane>
+            </VBox>
+
+            <!-- MAIN CONTENT AREA -->
+            <VBox fx:id="mainContent"
+                  HBox.hgrow="ALWAYS"
+                  style="-fx-background-color: #0F141A; -fx-padding: 36; -fx-spacing: 32;">
+
+                <!-- Word Header Section -->
+                <VBox fx:id="wordHeaderSection"
+                      style="-fx-spacing: 20;"
+                      visible="false">
+
+                    <!-- Word and Phonetic -->
+                    <VBox spacing="12">
+                        <Label fx:id="wordLabel" style="-fx-font-size: 56px; -fx-font-weight: bold; -fx-text-fill: #F1F5F9;"/>
+                        <HBox spacing="24" style="-fx-alignment: center-left;">
+                            <Label fx:id="phoneticLabel" style="-fx-font-size: 24px; -fx-font-weight: 500; -fx-text-fill: #A8FFCE;"/>
+                           <Button fx:id="ttsButton" text="▶"
+                                    style="-fx-background-color: #1F2937; -fx-text-fill: #F1F5F9; -fx-background-radius: 20; -fx-min-width: 44; -fx-min-height: 44; -fx-font-size: 14px;"/>
+                            <Button fx:id="favoriteToggleButton"
+                                    text="☆"
+                                    style="-fx-background-color: #334155; -fx-text-fill: #FACC15; -fx-font-weight: bold; -fx-background-radius: 20; -fx-min-width: 44; -fx-min-height: 44; -fx-font-size: 18px;"/>
+                        </HBox>
+                    </VBox>
+
+                    <!-- Origin and Source -->
+                    <VBox spacing="12">
+                        <Label fx:id="originLabel"
+                               visible="false"
+                               style="-fx-font-size: 16px; -fx-text-fill: #CBD5E1; -fx-font-style: italic;"/>
+                        <Label fx:id="sourceLabel"
+                               visible="false"
+                               style="-fx-font-size: 16px; -fx-text-fill: #CBD5E1;"/>
+                    </VBox>
+                </VBox>
+
+                <!-- Meanings Area -->
+                <!-- Meanings Area -->
+<ScrollPane fitToWidth="true"
+            VBox.vgrow="ALWAYS"
+            hbarPolicy="NEVER"
+            vbarPolicy="AS_NEEDED"
+            style="-fx-background: #0F141A; -fx-background-color: #0F141A; -fx-border-color: transparent;">
+    <VBox fx:id="meaningsContainer"
+          style="-fx-spacing: 24; -fx-background: #0F141A; -fx-background-color: #0F141A;"/>
+</ScrollPane>
+
+                <!-- Loading Indicator -->
+                <ProgressIndicator fx:id="progressIndicator"
+                                   visible="false"
+                                   style="-fx-progress-color: #A8FFCE;"/>
+
+            </VBox>
+        </HBox>
+    </center>
+
+</BorderPane>

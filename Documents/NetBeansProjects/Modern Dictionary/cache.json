@@ -1,0 +1,195 @@
+{
+  "buy": {
+    "phonetic": "/baɪ/",
+    "word": "buy",
+    "meanings": [
+      {
+        "examples": ["At only $30, the second-hand kitchen table was a great buy."],
+        "synonyms": [],
+        "partOfSpeech": "noun",
+        "antonyms": ["sale"],
+        "definitions": ["Something which is bought; a purchase."]
+      },
+      {
+        "examples": [
+          "I'm going to buy my father something nice for his birthday.",
+          "I've bought material comfort by foregoing my dreams.",
+          "He tried to buy me with gifts, but I wouldn't give up my beliefs.",
+          "The dollar doesn't buy as much as it used to.",
+          "I'm not going to buy your stupid excuses anymore!",
+          "Let's go out for dinner. I'm buying.",
+          "Smith tried to buy the pot on the river with a huge bluff"
+        ],
+        "synonyms": [
+          "make a buy",
+          "accept",
+          "believe",
+          "swallow",
+          "take on",
+          "cheap",
+          "purchase"
+        ],
+        "partOfSpeech": "verb",
+        "antonyms": [
+          "disbelieve",
+          "pitch",
+          "reject",
+          "cheap",
+          "sell",
+          "vend"
+        ],
+        "definitions": [
+          "To obtain (something) in exchange for money or goods",
+          "To obtain by some sacrifice.",
+          "To bribe.",
+          "To be equivalent to in value.",
+          "To accept as true; to believe",
+          "To make a purchase or purchases, to treat (for a meal)",
+          "To make a bluff, usually a large one."
+        ]
+      }
+    ]
+  },
+  "run": {
+    "phonetic": "/ɹʊn/",
+    "word": "run",
+    "meanings": [
+      {
+        "examples": [],
+        "synonyms": [],
+        "partOfSpeech": "verb",
+        "antonyms": [],
+        "definitions": ["To run."]
+      },
+      {
+        "examples": [
+          "I just got back from my morning run.",
+          "I need to make a run to the store.",
+          "Let's go for a run in the car.",
+          "He set up a rabbit run.",
+          "The constant run of water from the faucet annoys me.",
+          "The military campaign near that creek was known as \"The battle of Bull Run\".",
+          "He broke into a run.",
+          "Financial insecurity led to a run on the banks, as customers feared for the security of their savings.",
+          "There was a run on Christmas presents.",
+          "He stood out from the usual run of applicants.",
+          "I have a run in my stocking."
+        ],
+        "synonyms": [
+          "execute",
+          "start",
+          "tread",
+          "ladder"
+        ],
+        "partOfSpeech": "noun",
+        "antonyms": [
+          "rise",
+          "riser"
+        ],
+        "definitions": [
+          "Act or instance of running, of moving rapidly using the feet.",
+          "Act or instance of hurrying (to or from a place) (not necessarily by foot); dash or errand, trip.",
+          "A pleasure trip.",
+          "Flight, instance or period of fleeing.",
+          "Migration (of fish).",
+          "A group of fish that migrate, or ascend a river for the purpose of spawning.",
+          "A path taken by literal movement or figuratively",
+          "An enclosure for an animal; a track or path along which something can travel.",
+          "Rural landholding for farming, usually for running sheep, and operated by a runholder.",
+          "State of being current; currency; popularity.",
+          "Continuous or sequential",
+          "A flow of liquid; a leak.",
+          "(West Virginia) A small creek or part thereof. (Compare Southern US branch and New York and New England brook.)",
+          "A quick pace, faster than a walk.",
+          "A sudden series of demands on a bank or other financial institution, especially characterised by great withdrawals.",
+          "Any sudden large demand for something.",
+          "Various horizontal dimensions or surfaces",
+          "A standard or unexceptional group or category.",
+          "In sports",
+          "A line of knit stitches that have unravelled, particularly in a nylon stocking.",
+          "The stern of the underwater body of a ship from where it begins to curve upward and inward.",
+          "The horizontal distance to which a drift may be carried, either by licence of the proprietor of a mine or by the nature of the formation; also, the direction which a vein of ore or other substance takes.",
+          "A pair or set of millstones."
+        ]
+      },
+      {
+        "examples": [
+          "He is running the candidate's expensive campaign.",
+          "I have decided to run for governor of California.",
+          "He ran his best horse in the Derby.",
+          "to run through life; to run in a circle",
+          "Her picture ran on the front page of the newspaper.",
+          "run a story; run an ad",
+          "to run guns; to run rum",
+          "Looks like we're gonna have to run the tomatoes again.",
+          "Don't run that software unless you have permission.",
+          "to run from one subject to another",
+          "Our supplies are running low.",
+          "Buying a new laptop will run you a thousand dollars.",
+          "My stocking is running.",
+          "to run a sword into or through the body; to run a nail into one's foot",
+          "to run a line",
+          "to run the risk of losing one's life",
+          "Every three or four hands he would run the table.",
+          "Boys and girls run up rapidly.",
+          "Certain covenants run with the land."
+        ],
+        "synonyms": [],
+        "partOfSpeech": "verb",
+        "antonyms": [],
+        "definitions": [
+          "To move swiftly.",
+          "(fluids) To flow.",
+          "(of a vessel) To sail before the wind, in distinction from reaching or sailing close-hauled.",
+          "To control or manage, be in charge of.",
+          "To be a candidate in an election.",
+          "To make run in a race or an election.",
+          "To exert continuous activity; to proceed.",
+          "To be presented in the media.",
+          "To print or broadcast in the media.",
+          "To smuggle (illegal goods).",
+          "To sort through a large volume of produce in quality control.",
+          "To extend or persist, statically or dynamically, through space or time.",
+          "To execute or carry out a plan, procedure or program.",
+          "To pass or go quickly in thought or conversation.",
+          "To become different in a way mentioned (usually to become worse).",
+          "To cost a large amount of money.",
+          "Of stitches or stitched clothing, to unravel.",
+          "To pursue in thought; to carry in contemplation.",
+          "To cause to enter; to thrust.",
+          "To drive or force; to cause, or permit, to be driven.",
+          "To cause to be drawn; to mark out; to indicate; to determine.",
+          "To encounter or incur (a danger or risk).",
+          "To put at hazard; to venture; to risk.",
+          "To tease with sarcasms and ridicule.",
+          "To sew (a seam) by passing the needle through material in a continuous line, generally taking a series of stitches on the needle at the same time.",
+          "To control or have precedence in a card game.",
+          "To be in form thus, as a combination of words.",
+          "To be popularly known; to be generally received.",
+          "To have growth or development.",
+          "To tend, as to an effect or consequence; to incline.",
+          "To have a legal course; to be attached; to continue in force, effect, or operation; to follow; to go in company.",
+          "To encounter or suffer (a particular, usually bad, fate or misfortune).",
+          "To strike (the ball) in such a way as to cause it to run along the ground, as when approaching a hole.",
+          "To speedrun."
+        ]
+      },
+      {
+        "examples": [
+          "Put some run butter on the vegetables.",
+          "run brandy"
+        ],
+        "synonyms": [],
+        "partOfSpeech": "adjective",
+        "antonyms": [],
+        "definitions": [
+          "In a liquid state; melted or molten.",
+          "Cast in a mould.",
+          "Exhausted; depleted (especially with \"down\" or \"out\").",
+          "(of a zoology) Travelled, migrated; having made a migration or a spawning run.",
+          "Smuggled."
+        ]
+      }
+    ]
+  }
+}
