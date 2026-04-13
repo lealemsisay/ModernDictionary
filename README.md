@@ -64,3 +64,5 @@ As you type, suggestions appear from:
 
 ### 📷 UI Structure
  ![Image Alt](https://github.com/lealemsisay/ModernDictionary/blob/40214df7b7e26723671f3046691034884046b2af/Screenshot%202026-04-13%20120436.png)
+  ![Image Alt](https://github.com/lealemsisay/ModernDictionary/blob/cc47ddd8391edfbed9fd83509200ad66b1c84c65/Screenshot%202026-04-13%20132032.png)
+  
